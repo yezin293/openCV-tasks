@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GaussianBlurDemo.cpp" />
+    <ClCompile Include="LaneDemo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MedianBlurDemo.cpp" />
+    <ClCompile Include="RedCatDemo.cpp" />
+    <ClCompile Include="SobelCircuitDemo.cpp" />
+    <ClCompile Include="SobelEdgeDemo.cpp" />
+    <ClCompile Include="SobelRiceDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GaussianBlurDemo.h" />
+    <ClInclude Include="LaneDemo.h" />
+    <ClInclude Include="MedianBlurDemo.h" />
+    <ClInclude Include="RedCatDemo.h" />
+    <ClInclude Include="SobelEdgeDemo.h" />
+    <ClInclude Include="SobelCircuitDemo.h" />
+    <ClInclude Include="SobelRiceDemo.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -131,14 +150,6 @@
       <AdditionalDependencies>opencv_world3416.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="BlueImage.cpp" />
-    <ClCompile Include="ExtraRegion.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="OtsuThreshold.cpp" />
-    <ClCompile Include="Ternary.cpp" />
-    <ClCompile Include="Threshold.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

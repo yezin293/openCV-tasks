@@ -15,23 +15,52 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GaussianBlurDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BlueImage.cpp">
+    <ClCompile Include="MedianBlurDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ExtraRegion.cpp">
+    <ClCompile Include="SobelEdgeDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Threshold.cpp">
+    <ClCompile Include="RedCatDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="OtsuThreshold.cpp">
+    <ClCompile Include="SobelCircuitDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Ternary.cpp">
+    <ClCompile Include="SobelRiceDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LaneDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GaussianBlurDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MedianBlurDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RedCatDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SobelEdgeDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SobelCircuitDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SobelRiceDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LaneDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
