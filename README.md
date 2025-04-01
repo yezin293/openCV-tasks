@@ -10,6 +10,7 @@
 - `assignment1` : 영상 이진화, 색상 필터링 등 기본 실습  
 - `assignment2` : 특정 영역 추출, Otsu Threshold 등  
 - `assignment3` : 차선 검출 과제 (Sobel, Canny, ROI 등)
+- 'assignment4` : Canny 엣지 검출, Hough 변환, 기하학적 이미지 변형 실습 
 
 ---
 
@@ -27,7 +28,6 @@
 - 컴퓨터 비전 기초 개념 학습
 - 실습 기반 문제 해결 능력 향상
 - Git 브랜치 기반 버전 관리 연습
-
 ---
 
 5. 참고 사항
