@@ -15,51 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GaussianBlurDemo.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MedianBlurDemo.cpp">
+    <ClCompile Include="CannyCompareDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SobelEdgeDemo.cpp">
+    <ClCompile Include="CannyBasic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RedCatDemo.cpp">
+    <ClCompile Include="ScaleForward.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SobelCircuitDemo.cpp">
+    <ClCompile Include="ScaleReverse.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SobelRiceDemo.cpp">
+    <ClCompile Include="ResizeDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LaneDemo.cpp">
+    <ClCompile Include="AffineTransformDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GaussianBlurDemo.h">
+    <ClInclude Include="CannyCompareDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="MedianBlurDemo.h">
+    <ClInclude Include="CannyBasic.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="RedCatDemo.h">
+    <ClInclude Include="ScaleForward.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SobelEdgeDemo.h">
+    <ClInclude Include="ScaleReverse.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SobelCircuitDemo.h">
+    <ClInclude Include="ResizeDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SobelRiceDemo.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="LaneDemo.h">
+    <ClInclude Include="AffineTransformDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

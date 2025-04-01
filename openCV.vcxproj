@@ -19,23 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GaussianBlurDemo.cpp" />
-    <ClCompile Include="LaneDemo.cpp" />
+    <ClCompile Include="AffineTransformDemo.cpp" />
+    <ClCompile Include="CannyBasic.cpp" />
+    <ClCompile Include="CannyCompareDemo.cpp" />
+    <ClCompile Include="ResizeDemo.cpp" />
+    <ClCompile Include="ScaleForward.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MedianBlurDemo.cpp" />
-    <ClCompile Include="RedCatDemo.cpp" />
-    <ClCompile Include="SobelCircuitDemo.cpp" />
-    <ClCompile Include="SobelEdgeDemo.cpp" />
-    <ClCompile Include="SobelRiceDemo.cpp" />
+    <ClCompile Include="ScaleReverse.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GaussianBlurDemo.h" />
-    <ClInclude Include="LaneDemo.h" />
-    <ClInclude Include="MedianBlurDemo.h" />
-    <ClInclude Include="RedCatDemo.h" />
-    <ClInclude Include="SobelEdgeDemo.h" />
-    <ClInclude Include="SobelCircuitDemo.h" />
-    <ClInclude Include="SobelRiceDemo.h" />
+    <ClInclude Include="AffineTransformDemo.h" />
+    <ClInclude Include="CannyBasic.h" />
+    <ClInclude Include="CannyCompareDemo.h" />
+    <ClInclude Include="ResizeDemo.h" />
+    <ClInclude Include="ScaleForward.h" />
+    <ClInclude Include="ScaleReverse.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
