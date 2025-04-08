@@ -18,42 +18,54 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CannyCompareDemo.cpp">
+    <ClCompile Include="MirroDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CannyBasic.cpp">
+    <ClCompile Include="BinaryMorphologyDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ScaleForward.cpp">
+    <ClCompile Include="OpenCloseMorphologyDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ScaleReverse.cpp">
+    <ClCompile Include="MorhpGradientDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ResizeDemo.cpp">
+    <ClCompile Include="GrayMorphologyDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="AffineTransformDemo.cpp">
+    <ClCompile Include="TopHatDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TopHatSEComparison.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpingDemo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CannyCompareDemo.h">
+    <ClInclude Include="MirrorDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CannyBasic.h">
+    <ClInclude Include="BinaryMorphologyDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ScaleForward.h">
+    <ClInclude Include="OpenCloseMorphologyDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ScaleReverse.h">
+    <ClInclude Include="MorhpGradientDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ResizeDemo.h">
+    <ClInclude Include="GrayMorphologyDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="AffineTransformDemo.h">
+    <ClInclude Include="TopHatDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TopHatSEComparison.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpingDemo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

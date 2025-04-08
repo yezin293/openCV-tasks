@@ -19,21 +19,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AffineTransformDemo.cpp" />
-    <ClCompile Include="CannyBasic.cpp" />
-    <ClCompile Include="CannyCompareDemo.cpp" />
-    <ClCompile Include="ResizeDemo.cpp" />
-    <ClCompile Include="ScaleForward.cpp" />
+    <ClCompile Include="BinaryMorphologyDemo.cpp" />
+    <ClCompile Include="GrayMorphologyDemo.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ScaleReverse.cpp" />
+    <ClCompile Include="MirroDemo.cpp" />
+    <ClCompile Include="MorhpGradientDemo.cpp" />
+    <ClCompile Include="OpenCloseMorphologyDemo.cpp" />
+    <ClCompile Include="TopHatDemo.cpp" />
+    <ClCompile Include="TopHatSEComparison.cpp" />
+    <ClCompile Include="WarpingDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AffineTransformDemo.h" />
-    <ClInclude Include="CannyBasic.h" />
-    <ClInclude Include="CannyCompareDemo.h" />
-    <ClInclude Include="ResizeDemo.h" />
-    <ClInclude Include="ScaleForward.h" />
-    <ClInclude Include="ScaleReverse.h" />
+    <ClInclude Include="BinaryMorphologyDemo.h" />
+    <ClInclude Include="GrayMorphologyDemo.h" />
+    <ClInclude Include="MirrorDemo.h" />
+    <ClInclude Include="MorhpGradientDemo.h" />
+    <ClInclude Include="OpenCloseMorphologyDemo.h" />
+    <ClInclude Include="TopHatDemo.h" />
+    <ClInclude Include="TopHatSEComparison.h" />
+    <ClInclude Include="WarpingDemo.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
