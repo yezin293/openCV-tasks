@@ -19,25 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryMorphologyDemo.cpp" />
-    <ClCompile Include="GrayMorphologyDemo.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MirroDemo.cpp" />
-    <ClCompile Include="MorhpGradientDemo.cpp" />
-    <ClCompile Include="OpenCloseMorphologyDemo.cpp" />
-    <ClCompile Include="TopHatDemo.cpp" />
-    <ClCompile Include="TopHatSEComparison.cpp" />
-    <ClCompile Include="WarpingDemo.cpp" />
+    <ClInclude Include="corner_harris_utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryMorphologyDemo.h" />
-    <ClInclude Include="GrayMorphologyDemo.h" />
-    <ClInclude Include="MirrorDemo.h" />
-    <ClInclude Include="MorhpGradientDemo.h" />
-    <ClInclude Include="OpenCloseMorphologyDemo.h" />
-    <ClInclude Include="TopHatDemo.h" />
-    <ClInclude Include="TopHatSEComparison.h" />
-    <ClInclude Include="WarpingDemo.h" />
+    <ClCompile Include="chessboard.cpp" />
+    <ClCompile Include="corner_harris_utils.cpp" />
+    <ClCompile Include="figure.cpp" />
+    <ClCompile Include="lena.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
