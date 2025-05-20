@@ -19,14 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="corner_harris_utils.h" />
+    <ClCompile Include="binarization.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="model_plane.cpp" />
+    <ClCompile Include="model_quad.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chessboard.cpp" />
-    <ClCompile Include="corner_harris_utils.cpp" />
-    <ClCompile Include="figure.cpp" />
-    <ClCompile Include="lena.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="binarization.h" />
+    <ClInclude Include="model_plane.h" />
+    <ClInclude Include="model_quad.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
